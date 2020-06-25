@@ -861,7 +861,8 @@ int main(int argc, char* argv[])
 
             ret = decryptMessage(enclave_id,encMessage,encMessageLen,decMessage,decMessageLen);
             decMessage[decMessageLen] = '\0';
-            printf("Decrypted row: %s", decMessage);
+            printf("Decrypted row: %s\n\n\n\n", decMessage);
+            sleep(1);
         }
 
         
